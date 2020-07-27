@@ -1,21 +1,3 @@
-p {
-    margin: 0;
-}
-
-body {
-  margin: 0;
-}
-
-.background__color_style_dark {
-  background-color: #1f1f1f;
-  z-index: -3;
-}
-
-.background__color_style_light {
-  background-color: #f2f2f2;
-  z-index: -3;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -79,7 +61,7 @@ body {
   top: 64px;
   position: absolute;
   right: 0;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -98,7 +80,7 @@ body {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .description {
@@ -117,6 +99,7 @@ body {
   line-height: 1.2;
   margin-top: 100px;
   position: relative;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -125,18 +108,17 @@ body {
   top: 0;
   right: 0;
   margin-top: 100px;
-  position: relative;
-  border: 5px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 315px;
+  position: relative;;
 }
 
 .two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
-  
+  margin-top: 30px;
+}
+
+.two-columns__paragraph:first-child {
+  margin-top: 0;
 }
 
 .two-columns__span-accent {
@@ -215,6 +197,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  background-color: #f2f2f2;
   z-index: 1;
 }
 
@@ -249,6 +232,8 @@ body {
   top: 50%;
   text-align: right;
   right: 48px;
+  z-index: 2;
+  color: #000000;
 }
 
 .feinman__image {
@@ -258,7 +243,7 @@ body {
   width: 867px;
   position: absolute;
   background-image: url(../images/feynman.png);
-  z-index: -2;
+  z-index: -1;
 }
 
 .kaufman {
@@ -269,6 +254,8 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  background-color: #1f1f1f;
+  z-index: 1;
 }
 
 .section-title__theme_dark {
@@ -323,7 +310,7 @@ body {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
-  z-index: -2;
+  z-index: -1;
 }
 
 
@@ -368,22 +355,19 @@ body {
 }
 
 .header {
-height: 100vh;
-min-height: 600px;
-max-height: 756px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-position: relative;
-z-index: 1;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: 1;
 }
 
 .header__link {
-
-}
-
-.main {
-  z-index: 1;
+  color: #2f80ed;
 }
 
 .footer {
@@ -391,7 +375,8 @@ z-index: 1;
   height: 100%;
   display: flex;
   position: relative;
-  z-index: 1;
+  background-color: #1f1f1f;
+  color: #ffffff;
 }
 
 .footer__column_content_social {
@@ -404,13 +389,15 @@ z-index: 1;
   font-size: 18px;
   line-height: 30px;
   text-align: left;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__column-heading {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
 }
 
 .footer__social-links {
@@ -418,6 +405,8 @@ z-index: 1;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
+  list-style-type: none;
+  padding: 0;
 }
 
 .link__text_underline_disable {
@@ -430,3 +419,8 @@ z-index: 1;
   margin-right: 10px;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
