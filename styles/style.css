@@ -54,7 +54,7 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -127,7 +127,7 @@
   width: auto;
 }
 
-.section__title {
+.section-title {
   width: 60%;
   font-weight: 600;
   font-size: 60px;
@@ -140,7 +140,7 @@
 }
 
 
-.section__subtitle {
+.section-subtitle {
   margin-top: 20px;
   width: 60%;
   font-weight: normal;
@@ -252,21 +252,21 @@
   z-index: 1;
 }
 
-.section_title_theme_dark {
+.section-title_theme_dark {
   color: #ffffff;
   margin-top: 90px;
 }
 
-.section_subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #ffffff;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   color: #ffffff;
   margin-bottom: 90px;
 }
 
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   color: #ffffff;
   width: 200px;
   margin-top: 80px;
@@ -302,7 +302,7 @@
   width: 90%;
 }
 
-.footer_column_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -393,11 +393,6 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
   font-style: normal;
   margin: 0;
-}
-
-.footer__social-link {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .footer__column-link {
