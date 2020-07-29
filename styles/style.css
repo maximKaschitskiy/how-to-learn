@@ -76,9 +76,12 @@
   width: 80%;
   margin: auto; 
   height: 100%;
+  position: relative;
+}
+
+.two-columns {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .two-columns__brief {
