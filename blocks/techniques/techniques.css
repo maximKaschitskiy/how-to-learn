@@ -1,0 +1,8 @@
+.techniques {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

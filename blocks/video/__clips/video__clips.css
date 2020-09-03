@@ -1,0 +1,8 @@
+.video__clips {
+  display: inline-block;
+  z-index: 1;
+}
+
+.video__clips:first-child {
+  margin-right: 20px;
+}

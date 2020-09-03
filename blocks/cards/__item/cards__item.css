@@ -1,0 +1,5 @@
+.cards__item {
+  height: auto;
+  margin-top: 60px;
+  width: min-content;
+}
