@@ -1,6 +1,7 @@
 .video__clips {
   display: inline-block;
   z-index: 1;
+  border: 0;
 }
 
 .video__clips:first-child {
