@@ -1,6 +1,7 @@
 /* global */
 @import url(../vendor/normalize.css);
 @import url(../root/root.css);
+@import url(../blocks/page/page.css);
 /* header */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -24,8 +25,6 @@
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/cards/__item/_position/cards__item_position_center.css);
-@import url(../blocks/cards/__mask/cards__mask.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);

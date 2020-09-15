@@ -2,4 +2,9 @@
   height: auto;
   margin-top: 60px;
   width: min-content;
+  margin-right: 100px;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
 }
