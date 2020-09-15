@@ -1,6 +1,5 @@
 /* global */
 @import url(../vendor/normalize.css);
-@import url(../root/root.css);
 @import url(../blocks/page/page.css);
 /* header */
 @import url(../blocks/logo/logo.css);
@@ -20,7 +19,6 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 /* techniques */
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
