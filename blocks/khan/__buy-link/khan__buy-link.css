@@ -3,13 +3,11 @@
   font-size: 30px;
   line-height: 42px;
   text-align: left;
-  position: absolute;
   margin-left: 48px;
   color: #2f80ed;
   text-decoration: none;
   opacity: 1;
   transition: opacity 0.115s linear;
-  margin-top: 68px;
 }
 
 .khan__buy-link:hover {

@@ -29,7 +29,7 @@
 /* video */
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__clips/video__clips.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 /* oakley */
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/two-columns/__brief/_position/two-columns__brief_position_oakley.css);
