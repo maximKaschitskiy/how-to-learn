@@ -9,4 +9,5 @@ Simple web page about study methods.
 
 ## Technologies
 There is simple HTML and CSS in this project, because it's my first 
-![html5-plain](https://user-images.githubusercontent.com/67905360/174457936-47fa0e2a-f788-4c65-bb1e-f63753720bae.svg)![css3-plain](https://user-images.githubusercontent.com/67905360/174457955-12884762-39b2-49a9-9d62-9e3521b95730.svg)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          
