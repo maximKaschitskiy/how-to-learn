@@ -17,3 +17,7 @@ Simple web page about study methods.
 - BEM
 
 <img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /><img height="50" src="https://ru.bem.info/S3zKVZJcFfltyiAz-bWVmw4o3IU.svgd" />
+
+## Hot to run
+
+Clone reposetory and run as website locally.
