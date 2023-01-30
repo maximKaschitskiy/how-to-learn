@@ -5,6 +5,9 @@ What modern and effective approaches to learning can you use in your life?
 
 Simple web page about study methods.
 
+## Release:
+https://maximkaschitskiy.github.io/how-to-learn/
+
 ## Screenshots
 
 ![how-to-learn-screenshot](https://user-images.githubusercontent.com/67905360/174458805-1abb8252-aa4c-4f6a-8bb6-1327053a9824.png)
