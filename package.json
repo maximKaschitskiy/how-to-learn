@@ -1,0 +1,25 @@
+{
+  "name": "how-to-learn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "dev": "parcel serve src/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximKaschitskiy/how-to-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximKaschitskiy/how-to-learn/issues"
+  },
+  "homepage": "https://github.com/maximKaschitskiy/how-to-learn#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  }
+}
