@@ -23,4 +23,7 @@ https://maximkaschitskiy.github.io/how-to-learn/
 
 ## Hot to run
 
-Clone reposetory and run as website locally.
+```
+npm i
+npm run start
+```
