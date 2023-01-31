@@ -1,0 +1,12 @@
+@keyframes translating {
+  0% { 
+    transform: rotate(0);
+    }
+  100% {
+    transform: rotate(360deg);
+    }
+}
+
+.rotation {
+    animation: translating 20s linear infinite;
+}
